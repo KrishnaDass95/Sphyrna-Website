@@ -7,12 +7,12 @@ const Navbar = () => {
         <div className="input-wrapper">
             <div className="navbar">
                 <div className="navbar-item-left">
-                    <NavLink to="/">SPHYRNA</NavLink>
+                    <NavLink className="nav-link" to="/">SPHYRNA</NavLink>
                 </div>
                 <div className="navbar-items-right">
-                    <NavLink to="/about">About</NavLink>
-                    <NavLink to="/careers">Careers</NavLink>
-                    <NavLink to="/contact-us">Contact</NavLink>
+                    <NavLink className="nav-link" to="/about">About</NavLink>
+                    <NavLink className="nav-link" to="/careers">Careers</NavLink>
+                    <NavLink className="nav-link" to="/contact-us">Contact</NavLink>
                 </div>
 
             </div>
