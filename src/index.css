@@ -10,3 +10,13 @@
     color:var(--white);
     font-family: 'Outfit';
 }
+
+.input-wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    width: 70%;
+}
