@@ -6,6 +6,7 @@
 }
 
 *{
+    box-sizing: border-box;
     background-color: var(--theme);
     color:var(--white);
     font-family: 'Outfit';
