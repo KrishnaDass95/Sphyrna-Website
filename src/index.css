@@ -9,6 +9,9 @@
     background-color: var(--theme);
     color:var(--white);
     font-family: 'Outfit';
+    padding: 0;
+    margin: 0;
+    
 }
 
 .input-wrapper{
