@@ -48,5 +48,17 @@
     }
     .navbar-items-right{
         display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-items-right ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-items-right.active{
+        display: flex;
     }
 }
