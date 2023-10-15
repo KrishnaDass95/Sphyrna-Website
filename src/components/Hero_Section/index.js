@@ -1,3 +1,5 @@
+import Button from "../common_components/Button_Component";
+import { Image } from "../common_components/Images";
 import "./hero.css";
 
 const Hero_Section = () => {
@@ -11,8 +13,11 @@ const Hero_Section = () => {
             Are you looking to support every functional area of your product?
             Look no further!
           </div>
+          <Button text="Join Us"></Button>
         </div>
-        <div className="hero-right"></div>
+        <div className="hero-right">
+            <Image src={"./hero-image.jpeg"} alt={"cycling"}></Image>
+        </div>
       </div>
     </div>
   );
