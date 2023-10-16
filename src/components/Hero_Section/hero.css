@@ -2,6 +2,7 @@
     margin: 4rem 0rem;
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .hero-left{
@@ -9,7 +10,10 @@
     display: flex;
     flex-direction: column;
     gap: 2rem; 
+    justify-content: space-around;
+    /* background-color: green; */
 }
 .hero-right{
     width: 50%;
+    /* background-color: khaki; */
 }

@@ -2,6 +2,8 @@ import "./image.css";
 
 export const Image = ({ src, alt }) => {
   return (
-      <img src="./hero-image.jpeg" alt={alt} />
+    <div className="image-container">
+      <img class="image-main" src={src} alt={alt} />
+    </div>
   );
 };

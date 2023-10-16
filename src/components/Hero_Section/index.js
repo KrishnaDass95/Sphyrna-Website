@@ -1,6 +1,7 @@
 import Button from "../common_components/Button_Component";
 import { Image } from "../common_components/Images";
 import "./hero.css";
+import heroImage from '../common_components/Images/hero-image.jpeg'
 
 const Hero_Section = () => {
   return (
@@ -16,7 +17,7 @@ const Hero_Section = () => {
           <Button text="Join Us"></Button>
         </div>
         <div className="hero-right">
-            <Image src={"./hero-image.jpeg"} alt={"cycling"}></Image>
+            <Image src={heroImage} alt={"cycling photo"}></Image>
         </div>
       </div>
     </div>
