@@ -27,7 +27,7 @@
 .toggle-button{
     position: absolute;
     top: 2rem;
-    right: 2rem;
+    right: 0rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -60,5 +60,8 @@
     }
     .navbar-items-right.active{
         display: flex;
+    }
+    .navbar-items-left{
+        margin-right: 2rem;
     }
 }

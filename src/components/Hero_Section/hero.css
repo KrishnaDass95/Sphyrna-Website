@@ -17,3 +17,19 @@
     width: 50%;
     /* background-color: khaki; */
 }
+
+@media (max-width: 600px){
+    .hero-section, .hero-left, .hero-right{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .hero-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+}
