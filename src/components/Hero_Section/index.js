@@ -3,7 +3,7 @@ import { Image } from "../common_components/Images";
 import "./hero.css";
 import heroImage from '../common_components/Images/hero-image.jpeg'
 
-const Hero_Section = () => {
+const HeroSection = () => {
   return (
     <div className="input-wrapper">
       <div className="hero-section">
@@ -24,4 +24,4 @@ const Hero_Section = () => {
   );
 };
 
-export default Hero_Section;
+export default HeroSection;

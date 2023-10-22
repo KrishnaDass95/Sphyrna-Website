@@ -19,7 +19,7 @@
     /* background-color: khaki; */
 }
 .hero-para-text{
-    max-width: 12rem;
+    max-width: 15rem;
 }
 
 @media (max-width: 600px){
@@ -31,10 +31,4 @@
         align-items: center;
         width: 100%;
     }
-    /* .hero-left{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
 }

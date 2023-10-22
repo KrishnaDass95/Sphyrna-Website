@@ -1,4 +1,5 @@
-import Hero_Section from "../components/Hero_Section";
+import Carousel from "../components/Carousel_Component";
+import HeroSection from "../components/Hero_Section";
 import Navbar from "../components/Navbar";
 
 
@@ -7,7 +8,8 @@ const Home = () => {
     return(
         <>
         <Navbar />
-        <Hero_Section />
+        <HeroSection />
+        <Carousel />
         </>
     )
 }
