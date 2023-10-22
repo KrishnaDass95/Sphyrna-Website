@@ -11,11 +11,15 @@
     flex-direction: column;
     gap: 2rem; 
     justify-content: space-around;
+    align-items: center;
     /* background-color: green; */
 }
 .hero-right{
     width: 50%;
     /* background-color: khaki; */
+}
+.hero-para-text{
+    max-width: 12rem;
 }
 
 @media (max-width: 600px){

@@ -10,7 +10,7 @@ const Hero_Section = () => {
         <div className="hero-left">
           <div className="header-text">Discover World Class Support</div>
 
-          <div className="para-text">
+          <div className="para-text hero-para-text">
             Are you looking to support every functional area of your product?
             Look no further!
           </div>
