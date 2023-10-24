@@ -1,0 +1,11 @@
+.carousel-item{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.image-services{
+    width: 50%;
+    /* text-align: center; */
+}

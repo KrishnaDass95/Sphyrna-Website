@@ -1,3 +1,4 @@
+import "./carousel.css"
 import { CarouselItem } from "../Carousel_Item";
 
 const Carousel = () => {
@@ -21,11 +22,14 @@ const Carousel = () => {
 
   return (
     <div class="input-wrapper carousel">
+        <div className="header-text">Our Services</div>
+        <div className="inner">
         {items.map((item) => {
             return (
                 <CarouselItem title={item.title} src={item.src} desc={item.desc}/>
             )
         })}
+        </div>
     </div>
   );
 };
