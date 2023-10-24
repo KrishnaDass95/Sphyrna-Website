@@ -2,6 +2,7 @@ import Button from "../common_components/Button_Component";
 import { Image } from "../common_components/Images";
 import "./hero.css";
 import heroImage from '../common_components/Images/hero-image.jpeg'
+import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -14,7 +15,10 @@ const HeroSection = () => {
             Are you looking to support every functional area of your product?
             Look no further!
           </div>
-          <Button text="Join Us"></Button>
+          <NavLink className="nav-link" to="/contact-us">
+          <Button text="Contact us"></Button>
+          </NavLink>
+          
         </div>
         <div className="hero-right">
             <Image src={heroImage} alt={"cycling photo"}></Image>
