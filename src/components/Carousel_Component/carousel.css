@@ -1,5 +1,7 @@
 .inner{
     margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;
