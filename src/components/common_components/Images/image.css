@@ -8,8 +8,9 @@
 @media (max-width: 600px) {
     .image-main{
         /* max-height: 100%; */
-        max-width: 100%;
+        max-width: 95%;
         border-radius: 1rem;
         object-fit: cover;
+        
     }
 }

@@ -1,7 +1,8 @@
 import Button from "../common_components/Button_Component";
 import { Image } from "../common_components/Images";
 import "./hero.css";
-import heroImage from "../common_components/Images/hero-image.jpeg";
+// import heroImage from "../common_components/Images/hero-image.jpeg";
+import heroImage from "../common_components/Images/office.jpg"
 import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {

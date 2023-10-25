@@ -22,7 +22,8 @@ const Carousel = () => {
 
   return (
     <div class="input-wrapper carousel">
-        <div className="header-text">Our Services</div>
+        {/* <div className="header-text">Our Services</div> */}
+        {/* <div>------------------------------------------------------------------</div> */}
         <div className="inner">
         {items.map((item) => {
             return (
