@@ -1,7 +1,7 @@
 import Button from "../common_components/Button_Component";
 import { Image } from "../common_components/Images";
 import "./hero.css";
-import heroImage from '../common_components/Images/hero-image.jpeg'
+import heroImage from "../common_components/Images/hero-image.jpeg";
 import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
@@ -16,12 +16,11 @@ const HeroSection = () => {
             Look no further!
           </div>
           <NavLink className="nav-link" to="/contact-us">
-          <Button text="Contact us"></Button>
+            <Button text="Contact Us"></Button>
           </NavLink>
-          
         </div>
         <div className="hero-right">
-            <Image src={heroImage} alt={"cycling photo"}></Image>
+          <Image src={heroImage} alt={"cycling photo"}></Image>
         </div>
       </div>
     </div>
