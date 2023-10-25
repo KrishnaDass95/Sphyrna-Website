@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+@media (max-width: 600px){
+    .about{
+        display: flex;
+        
+    }
+}
