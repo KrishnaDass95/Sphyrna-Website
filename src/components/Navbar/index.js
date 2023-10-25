@@ -3,12 +3,11 @@ import "./navbar.css";
 import { useState } from "react";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-    const [menuOpen, setMenuOpen] = useState(false)
-
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen) // toggling the state
-    }
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen); // toggling the state
+  };
 
   return (
     <div className="input-wrapper">
@@ -19,13 +18,12 @@ const Navbar = () => {
           </NavLink>
         </div>
         <NavLink className="nav-link toggle-button" to="/" onClick={toggleMenu}>
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-        
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </NavLink>
-        <div className={`navbar-items-right ${menuOpen ? 'active' : ''}`}>
-        {/* <div className="navbar-items-right"> */}
+        <div className={`navbar-items-right ${menuOpen ? "active" : ""}`}>
+          {/* <div className="navbar-items-right"> */}
           <ul>
             <li>
               <NavLink className="nav-link nav-item" to="/about">
@@ -33,13 +31,21 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="nav-link nav-item" to="/careers">
-                Careers
+              <NavLink
+                className="nav-link nav-item"
+                to="https://www.linkedin.com/company/sphyrna"
+                target="_blank"
+              >
+                LinkedIn
               </NavLink>
             </li>
             <li>
-              <NavLink className="nav-link nav-item" to="/contact-us">
-                Contact
+              <NavLink
+                className="nav-link nav-item"
+                to="https://maps.app.goo.gl/cd329XNbHix73kVZ8"
+                target="_blank"
+              >
+                Our Location
               </NavLink>
             </li>
           </ul>
