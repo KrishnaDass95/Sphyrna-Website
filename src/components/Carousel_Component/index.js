@@ -6,17 +6,17 @@ const Carousel = () => {
     {
       title: "Software Support",
       src: require("../../media/software.svg"),
-      desc: "We understand your product's software systems thoroughly be involved with the product development to have a good grasp on the current state to assist customers",
+      desc: "Our deep understanding of your software, fostered through ongoing product development involvement, translates into exceptional customer support. We anticipate questions, resolve issues swiftly, and empower your users to get the most out of your product.",
     },
     {
       title: "Product Insight",
       src: require("../../media/insight.svg"),
-      desc: "All the product insight required, from hardware peformances, software bugs, metrics are all collected by us to give feedback",
+      desc: "We gather comprehensive product insights, from hardware performance to software bugs and user metrics, to continuously improve your experience.",
     },
     {
         title: "Hardware Support",
         src: require("../../media/hardware.svg"),
-        desc: "Our hardware specialists understand the hardware systems better to diagnose and provide solutions to your customers"
+        desc: "Don't let hardware headaches slow you down. Our expert specialists pinpoint problems fast and deliver solutions that keep your business running smoothly"
     }
   ];
 

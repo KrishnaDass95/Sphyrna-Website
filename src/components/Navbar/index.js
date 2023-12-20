@@ -14,7 +14,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-item-left">
           <NavLink className="nav-link brand-title" to="/">
-            SPHYRNA
+            Sphyrna
           </NavLink>
         </div>
         <NavLink className="nav-link toggle-button" to="/" onClick={toggleMenu}>
