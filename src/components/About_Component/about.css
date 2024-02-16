@@ -6,6 +6,9 @@
     gap: 5rem;
 }
 
+.card-grid{
+    display: grid;
+}
 
 @media (max-width: 600px){
     .about{

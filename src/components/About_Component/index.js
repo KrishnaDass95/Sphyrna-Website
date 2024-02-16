@@ -55,7 +55,7 @@ export const AboutComponent = () => {
         Our vision is to be the reliable foundation upon which our users build
         their technological success.
       </div>
-      <div class="card-grid">
+      <div className="card-grid">
         {
           team_obj.map((member, index) => 
           (

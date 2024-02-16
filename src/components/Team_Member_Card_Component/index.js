@@ -1,9 +1,9 @@
-
+import "./style.css"
 
 export const TeamMemberCardComponent = ({Name, Title, Domain, About_Content }) => {
 
     return(
-        <div class="person-card">
+        <div className="person-card">
             <div class="image">Image</div>
             <div class="person-name">
                 {Name}
