@@ -1,6 +1,6 @@
 import "./style.css"
 
-export const TeamMemberCardComponent = ({Name, Title, Domain, About_Content }) => {
+export const TeamMemberCardComponent = ({Name, Title, Domain }) => {
 
     return(
         <div className="person-card">
@@ -14,10 +14,6 @@ export const TeamMemberCardComponent = ({Name, Title, Domain, About_Content }) =
             <div class="person-domain">
                 {Domain}
             </div>
-            <div class="person-content">
-                {About_Content}
-            </div>
-
         </div>
     )
 

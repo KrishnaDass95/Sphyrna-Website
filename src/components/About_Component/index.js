@@ -7,36 +7,51 @@ export const AboutComponent = () => {
       personName: "Mahoob Ali Khan",
       personTitle: "Chief Executive Officer",
       personDomain: null,
-      personContent:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
     },
     {
       personName: "Franklin Prince",
       personTitle: "Chief Opearating Officer",
       personDomain: null,
-      personContent:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
     },
     {
       personName: "Shruti Badhani",
       personTitle: "General Manager",
       personDomain: null,
-      personContent:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
     },
     {
       personName: "Ashish Kuttapa",
-      personTitle: "Team Manager",
+      personTitle: "Manager",
       personDomain: "Rider Experience",
-      personContent:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
     },
     {
       personName: "Hari Pulikode",
       personTitle: "Lead Product Expert",
-      personDomain: "Sotware",
-      personContent:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+      personDomain: "Sotware"
+    },
+    {
+      personName: "Abhishek Anand",
+      personTitle: "Lead Product Expert",
+      personDomain: "Hardware"
+    },
+    {
+      personName: "Akhil Khalibhat",
+      personTitle: "Managar",
+      personDomain: "Rider Experience"
+    },
+    {
+      personName: "Bijit Sinha",
+      personTitle: "Senior Engineer",
+      personDomain: "Rider Experience"
+    },
+    {
+      personName: "Vishnu Raghunandhan",
+      personTitle: "Engineer",
+      personDomain: "Rider Experience"
+    },
+    {
+      personName: "Krishna Dass",
+      personTitle: "Senior Engineer",
+      personDomain: "Software"
     }
   ];
   return (
@@ -64,10 +79,8 @@ export const AboutComponent = () => {
             Name={member.personName}
             Title={member.personTitle}
             Domain={member.personDomain}
-            About_Content={member.personContent}
             />
           ))
-
         }
       </div>
     </div>
