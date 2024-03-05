@@ -11,8 +11,6 @@ import Bijit from "../../media/team-members/9.Bijit.png"
 import Ashish from "../../media/team-members/5.Ashish.png"
 import Krishna from "../../media/team-members/4.Krishna.png"
 
-
-
 export const AboutComponent = () => {
   const team_obj = [
     {
