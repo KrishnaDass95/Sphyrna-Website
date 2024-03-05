@@ -1,7 +1,7 @@
 .image-main{
     max-height: 100%;
-    max-width: 90%;
-    border-radius: 1rem;
+    max-width: 100%;
+    border-radius: 0.5rem;
     object-fit: contain;
 }
 
