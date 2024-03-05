@@ -9,7 +9,7 @@
 .card-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20%;
+    row-gap: 5%;
     column-gap: 10%;
 }
 
