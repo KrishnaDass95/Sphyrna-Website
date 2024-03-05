@@ -1,19 +1,24 @@
 import "./style.css"
-
-export const TeamMemberCardComponent = ({Name, Title, Domain }) => {
+import { Image } from "../common_components/Images"
+export const TeamMemberCardComponent = ({Name, Title, Domain, imagePath }) => {
 
     return(
         <div className="person-card">
-            <div class="image">Image</div>
-            <div class="person-name">
+            <div className="image">
+                <Image src={imagePath} alt={Name}/>
+            </div>
+            <div className="card-text-content">
+            <div className="person-name">
                 {Name}
             </div>
-            <div class="person-title">
+            <div className="person-title">
                 {Title}
             </div>
-            <div class="person-domain">
+            <div className="person-domain">
                 {Domain}
             </div>
+            </div>
+            
         </div>
     )
 

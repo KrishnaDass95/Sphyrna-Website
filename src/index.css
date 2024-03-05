@@ -9,13 +9,13 @@
     --theme:#fff;
     --white:#006633;
     --light_green:#99cc66;
+    --black:#000000;
 }
 
 *{
     box-sizing: border-box;
     background-color: var(--theme);
     color:var(--white);
-    /* font-family: 'Outfit'; */
     font-family: 'Roboto';
     padding: 0;
     margin: 0;

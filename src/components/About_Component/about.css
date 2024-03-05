@@ -1,13 +1,16 @@
-.about{
+/* .about{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5rem;
-}
+} */
 
 .card-grid{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20%;
+    column-gap: 10%;
 }
 
 @media (max-width: 600px){
