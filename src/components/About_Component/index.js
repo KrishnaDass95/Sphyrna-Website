@@ -14,82 +14,76 @@ import Krishna from "../../media/team-members/4.Krishna.png"
 export const AboutComponent = () => {
   const team_obj = [
     {
-      personName: "Mahoob Ali Khan",
+      personName: "Mahboob Ali Khan",
       personTitle: "Chief Executive Officer",
       personDomain: null,
       imagePath: Ali
     },
     {
       personName: "Franklin Prince",
-      personTitle: "Chief Opearating Officer",
+      personTitle: "Chief Operating Officer",
       personDomain: null,
       imagePath: Frank
     },
     {
+      personName: "Krishna Dass",
+      personTitle: "Senior Software Engineer",
+      imagePath: Krishna
+    },
+    {
       personName: "Shruti Badhani",
-      personTitle: "General Manager",
-      personDomain: null,
+      personTitle: "General Manager - Operations",
       imagePath: Shruti
     },
     {
-      personName: "Ashish Kuttapa",
-      personTitle: "Manager",
-      personDomain: "Rider Experience",
+      personName: "Ashish Kuttappa",
+      personTitle: "Manager - Rider Experience",
       imagePath: Ashish
     },
     {
+      personName: "Akhil Kalibhat",
+      personTitle: "Manager - Rider Experience",
+      imagePath: Akhil
+    },
+    {
       personName: "Hari Pulikode",
-      personTitle: "Lead Product Expert",
-      personDomain: "Sotware",
+      personTitle: "Lead Software Expert",
       imagePath: Hari
     },
     {
       personName: "Abhishek Anand",
-      personTitle: "Lead Product Expert",
-      personDomain: "Hardware",
+      personTitle: "Lead Hardware Expert",
       imagePath: Abhi
     },
     {
-      personName: "Akhil Khalibhat",
-      personTitle: "Managar",
-      personDomain: "Rider Experience",
-      imagePath: Akhil
-    },
-    {
       personName: "Bijit Sinha",
-      personTitle: "Senior Engineer",
-      personDomain: "Rider Experience",
+      personTitle: "Sr. Rider Experience Engineer",
       imagePath: Bijit
     },
     {
       personName: "Vishnu Raghunandhan",
-      personTitle: "Engineer",
-      personDomain: "Rider Experience",
+      personTitle: "Rider Experience Engineer",
       imagePath: Vishnu
     },
-    {
-      personName: "Krishna Dass",
-      personTitle: "Senior Engineer",
-      personDomain: "Software",
-      imagePath: Krishna
-    }
   ];
   return (
     <div className="input-wrapper about">
-      <div className="header-text">About Us</div>
-      <div className="para-text">
+      <div className="header-text header-about">About Us</div>
+      <div className="para-text about-para">
         Sphyrna is dedicated to empowering individuals and organizations to
         achieve excellence by delivering exceptional support.
-      </div>
-      {/* <div className="para-text">
-        We have assembled a team of highly disciplined individuals committed to
-        fostering a collaborative environment, providing expert guidance, and
-        resolving challenges with speed and efficiency.
       </div>
       <div className="para-text">
         Our vision is to be the reliable foundation upon which our users build
         their technological success.
-      </div> */}
+      </div>
+
+      <div className="header-text">Meet the Team</div>
+      <div className="para-text">
+        We have assembled a team of highly disciplined individuals committed to
+        fostering a collaborative environment, providing expert guidance, and
+        resolving challenges with speed and efficiency.
+      </div>
       <div className="card-grid">
         {
           team_obj.map((member, index) => 
@@ -98,7 +92,6 @@ export const AboutComponent = () => {
             key={index}
             Name={member.personName}
             Title={member.personTitle}
-            Domain={member.personDomain}
             imagePath={member.imagePath}
             />
           ))

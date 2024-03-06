@@ -27,7 +27,7 @@ const Navbar = () => {
           <ul>
             <li>
               <NavLink className="nav-link nav-item" to="/about">
-                About
+                About Us
               </NavLink>
             </li>
             <li>

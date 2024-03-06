@@ -1,8 +1,7 @@
 import Button from "../common_components/Button_Component";
 import { Image } from "../common_components/Images";
 import "./hero.css";
-// import heroImage from "../common_components/Images/hero-image.jpeg";
-import heroImage from "../common_components/Images/office.jpg"
+import newHeroImage from "../../media/IMG_4413.jpg"
 import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
@@ -22,7 +21,7 @@ const HeroSection = () => {
           </NavLink>
         </div>
         <div className="hero-right">
-          <Image src={heroImage} alt={"cycling photo"}></Image>
+          <Image src={newHeroImage} alt={"cycling photo"}></Image>
         </div>
       </div>
     </div>

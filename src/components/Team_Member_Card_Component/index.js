@@ -1,6 +1,6 @@
 import "./style.css"
 import { Image } from "../common_components/Images"
-export const TeamMemberCardComponent = ({Name, Title, Domain, imagePath }) => {
+export const TeamMemberCardComponent = ({Name, Title, imagePath }) => {
 
     return(
         <div className="person-card">
@@ -13,9 +13,6 @@ export const TeamMemberCardComponent = ({Name, Title, Domain, imagePath }) => {
             </div>
             <div className="person-title">
                 {Title}
-            </div>
-            <div className="person-domain">
-                {Domain}
             </div>
             </div>
             

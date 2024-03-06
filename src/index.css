@@ -43,7 +43,7 @@
 }
 
 .para-text{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
 
 }
@@ -51,6 +51,12 @@
 @media (max-width: 600px){
     .input-wrapper{
         width: 100%;
-        display: block;
+        /* display: block; */
+    }
+
+    .para-text{
+        font-size: 1rem;
+        font-weight: 300;
+    
     }
 }

@@ -6,6 +6,10 @@
     gap: 5rem;
 } */
 
+.header-about{
+    margin-top: 1.2rem;
+}
+
 .card-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
