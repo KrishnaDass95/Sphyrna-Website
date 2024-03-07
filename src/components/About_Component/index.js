@@ -15,13 +15,13 @@ export const AboutComponent = () => {
   const team_obj = [
     {
       personName: "Mahboob Ali Khan",
-      personTitle: "Chief Executive Officer",
+      personTitle: "Founder & CEO",
       personDomain: null,
       imagePath: Ali
     },
     {
       personName: "Franklin Prince",
-      personTitle: "Chief Operating Officer",
+      personTitle: "Co-Founder & COO",
       personDomain: null,
       imagePath: Frank
     },
