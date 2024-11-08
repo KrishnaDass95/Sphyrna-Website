@@ -10,6 +10,8 @@ import Vishnu from "../../media/team-members/10.Vishnu.png"
 import Bijit from "../../media/team-members/9.Bijit.png"
 import Ashish from "../../media/team-members/5.Ashish.png"
 import Krishna from "../../media/team-members/4.Krishna.png"
+import Aish from "../../media/team-members/11. Aishwarya.png"
+import Bhagya from "../../media/team-members/12. Bhagyashree.png"
 
 export const AboutComponent = () => {
   const team_obj = [
@@ -65,6 +67,16 @@ export const AboutComponent = () => {
       personTitle: "Rider Experience Engineer",
       imagePath: Vishnu
     },
+    {
+      personName: "Aishwarya Chauhan",
+      personTitle: "Rider Experience Engineer",
+      imagePath: Aish
+    },
+    {
+      personName: "Bhagyashree Samantray",
+      personTitle: "Rider Experience Engineer",
+      imagePath: Bhagya
+    }
   ];
   return (
     <div className="input-wrapper about">
